@@ -20,7 +20,7 @@ public class TcrossPrototype extends CarroPrototype {
 
 	@Override
 	public String exibirInfo() {
-		return "Modelo: Tcross\nMontadora: Wolskvagen\n" + "Valor: R$"
+		return "Modelo: Tcross\nMontadora: Wolskwagen\n" + "Valor: R$"
 				+ getValorCompra();
 	}
 

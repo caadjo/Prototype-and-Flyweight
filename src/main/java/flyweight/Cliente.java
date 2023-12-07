@@ -12,6 +12,7 @@ import flyweight.FlyweightFactory.Sprites;
  */
 public class Cliente {
     public static void main(String[] args) {
+        
 		FlyweightFactory factory = new FlyweightFactory();
 
 		factory.getFlyweight(Sprites.CENARIO_1).desenharImagem(new Ponto(0, 0));
